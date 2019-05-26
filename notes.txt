@@ -1,0 +1,6 @@
+1 - Create-react-app name
+2 - yarn add styled-components (Para usar estilizacao dentro dos componentes)
+3 - yarn add axios (chamadas a API)
+4 - yarn add prop-types
+5 - yarn add moment
+6 - yarn add font-awesome

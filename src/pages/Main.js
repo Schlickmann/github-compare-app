@@ -61,9 +61,9 @@ class Main extends Component {
     repositories: []
   };
 
-  componentWillMount = async () => {
+  componentWillMount = () => {
     for (var i = 0; i < localStorage.length; i++) {
-      await this.setState({
+       this.setState({
         repositories: [
           ...this.state.repositories,
           JSON.parse(localStorage.getItem(localStorage.key(i)))

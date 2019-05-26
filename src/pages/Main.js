@@ -160,7 +160,7 @@ class Main extends Component {
     return (
       <Container>
         <img src={Logo} alt="Github" />
-        <span>Compare repositories from Github. You are able to see how many <strong>stars, forks and issues</strong>a specific repo has.<br /></span>
+        <span style={{ fontSize: 18, color: '#fff', marginTop: 15 }}>Compare repositories from Github. You are able to see how many <strong>stars, forks and issues</strong> a specific repo has.<br /></span>
         <Form
           withError={this.state.repositoryError}
           onSubmit={this.handleAddRepository}
